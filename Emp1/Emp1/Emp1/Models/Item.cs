@@ -13,13 +13,13 @@ namespace Emp1.Models
         string name { get; set; }
         string posi { get; set; }
     }
-    public class Category
+    public class Item2
     {
         public string Id { get; set; }
         public string Text { get; set; }
         public string Description { get; set; }
     }
-    public class CategoryRecord
+    public class EmpRec2
     {
         string name { get; set; }
         string posi { get; set; }

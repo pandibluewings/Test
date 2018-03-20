@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Emp1.Views.ItemsPage"
+              Title="{Binding Title}"
+             x:Name="BrowseItemsPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid x:Name="ListViewHeaders" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Title Col 1" />
+                <Label Grid.Column="1" Text="Title Col 2" />
+                <Label Grid.Column="2" Text="Title Col 3" />
+                <Label Grid.Column="3" Text="Title Col 4" />
+                <Label Grid.Column="4" Text="Title Col 5" />
+            </Grid>
+            <ListView x:Name="myTable" Grid.Row="1" ItemsSource="{Binding Items}"
+		 VerticalOptions="FillAndExpand"
+                 HasUnevenRows="true"
+                 RefreshCommand="{Binding LoadItemsCommand}"
+                 IsPullToRefreshEnabled="true"
+                 IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                 CachingStrategy="RecycleElement"
+                 ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="{Binding ElementName=myTable, Path=ActualWidth}" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition  />
+                                <ColumnDefinition  />
+                                <ColumnDefinition  />
+                                <ColumnDefinition  />
+                                <ColumnDefinition  />
+                            </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0"  Text="{Binding Text}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                                <Label Grid.Column="1"  Text="{Binding Description}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemDetailTextStyle}"
+                       FontSize="13" />
+
+                                <Label Grid.Column="2"  Text="{Binding Text}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                                <Label Grid.Column="3"  Text="{Binding Description}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemDetailTextStyle}"
+                       FontSize="13" />
+                                <Label Grid.Column="4"  Text="{Binding Text}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+
+
+                            
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,10 @@
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Android.csprojResolveAssemblyReference.cache
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Android.csproj.CoreCompileInputs.cache
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Droid.App.xaml.g.cs
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Droid.Views.MainPage.xaml.g.cs
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Droid.Views.AboutPage.xaml.g.cs
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Droid.Views.ItemDetailPage.xaml.g.cs
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Droid.Views.ItemsPage.xaml.g.cs
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Droid.Views.NewItemPage.xaml.g.cs
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Android.dll
+C:\Users\balachandrans\source\Emp1\Emp1\Emp1.Android\obj\Debug\Emp1.Android.pdb

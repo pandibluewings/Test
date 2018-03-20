@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
@@ -41,4 +42,13 @@
     <ResolvedResourceDirectoryStamp>E:\Balachandran\pandi_gittest\Test\Emp1\Emp1\Emp1.Android\obj\Debug\lp\14.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Balachandran\pandi_gittest\Test\Emp1\Emp1\Emp1.Android\obj\Debug\lp\16.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars />
+  <ResolvedResourceDirectories />
+  <ResolvedAssetDirectories />
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps />
+>>>>>>> b2546127d239ad6b667a981c435386980f57a6cc
 </Paths>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <ManifestDocuments>
@@ -44,4 +45,11 @@
     <Jar>obj\Debug\lp\8\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\9\jl\bin\classes.jar</Jar>
   </Jars>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <ManifestDocuments />
+  <NativeLibraries />
+  <Jars />
+>>>>>>> b2546127d239ad6b667a981c435386980f57a6cc
 </Paths>

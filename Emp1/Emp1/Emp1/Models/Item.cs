@@ -13,5 +13,10 @@ namespace Emp1.Models
         string name { get; set; }
         string posi { get; set; }
     }
+    public class StudRec
+    {
+        string name { get; set; }
+        string posi { get; set; }
+    }
     
 }
